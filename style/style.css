@@ -1,0 +1,55 @@
+/* REINICIANDO ESTILOS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ESTILOS BOTON NAVBAR*/
+
+.btn {
+  padding: 20px;
+  background-color: brown;
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+/* HEADER */
+
+.cabezera {
+  display: flex;
+  background-color: brown;
+  height: 80px;
+  width: 100%;
+}
+
+.cabezera__navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.cabezera__navbar > li {
+  list-style: none;
+  text-decoration: none;
+  justify-content: center
+}
+
+/* MAIN */
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  margin-top: 10px;
+}
